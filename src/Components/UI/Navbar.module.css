@@ -1,0 +1,16 @@
+.outerContainer {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  /* height: 200px; */
+}
+.logo {
+  color: white;
+}
+.menuItems {
+  display: flex;
+  gap: 3rem;
+  color: white;
+}

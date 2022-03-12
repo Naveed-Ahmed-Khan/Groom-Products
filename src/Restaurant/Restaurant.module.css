@@ -1,0 +1,10 @@
+.outerContainer {
+  margin: 0;
+  padding: 1rem 6rem;
+  background: gray;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  gap: 2rem;
+}

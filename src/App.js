@@ -1,5 +1,6 @@
-function App() {
-  return <div className="App">Hello World!</div>;
-}
+import RestaurantProduct from "./Restaurant/RestaurantProduct";
 
+function App() {
+  return <RestaurantProduct />;
+}
 export default App;
