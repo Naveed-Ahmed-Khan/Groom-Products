@@ -9,7 +9,10 @@ const Navbar = () => {
     <div className={classes.outerContainer}>
       <img src={logo} alt="" className={classes.logo} />
       <div className={classes.menuItems}>
-        <img src={cart} alt="cart" />
+        <div style={{ position: "relative" }}>
+          <div className={classes.badge}>4</div>
+          <img src={cart} alt="cart" />
+        </div>
         <img src={menu} alt="menu" />
       </div>
     </div>
